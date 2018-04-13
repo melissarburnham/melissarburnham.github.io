@@ -108,9 +108,9 @@ footer {
     margin-top: 20px;
     /* margin: auto; */
     position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .enter {
@@ -121,6 +121,18 @@ footer {
     .name{
         font-size:25px;
     } 
+    body {
+        width: 500px;
+    }
+    .enter {
+        text-align: center;
+    }
+    .portfolio_pics, .Me {
+        width: 60%;
+        align-content: center;
+        display:block;
+        margin:auto;
+    }
 }
 
 
