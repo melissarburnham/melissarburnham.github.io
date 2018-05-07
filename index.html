@@ -1,46 +1,294 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<title>MRB Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/ico" href="assets/images/favicon.ico">
-<link rel="stylesheet" href="css/app.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MRB Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/app.css">    
+    <link rel="stylesheet" href="css/startup-materialize.min.css">
+    <link rel="stylesheet" href="css/reset.css">    
+    
+    
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar dark absolute">
+      <div class="nav-wrapper">
+        <a href="horizontal-half.html" class="brand-logo"><i class="icon-diamond white-text"></i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active"><a class="dropdown-button" href="#!" data-activates="pages" data-constrainWidth="false" data-belowOrigin="true">Pages<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="./assets/images/melissa-burnham-resume.jpg" target="_blank">Resume</a></li>
+          <li><a href="https://github.com/melissarburnham" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/melissa-burnham-06289b134" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:melissarburnham@gmail.com">Email</a></li>
+        </ul>
+
+        <ul id="pages" class="dropdown-content">
+          <li><a class="active" href="#mySkills">My Skills</a></li>
+          <li><a href="#myWork">My Work</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+        </ul>
+
+        <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons white-text">menu</i></a>
+      </div>
+    </nav>
+    <div class="header full-height horizontal-half-transition">
+      <div class="background">
+        <img src= './assets/images/smudge.jpg' alt="">
+      </div>
+      <div class="phone-preview-sizer">
+        <div class="phone-preview"></div>
+        <div class="image-container active" style="background-image:url('./assets/images/Me3.JPG')"></div>
+        <div class="image-container" style="background-image:url('./assets/images/Me3.JPG')"></div>
+        <div class="image-container" style="background-image:url('./assets/images/Me3.JPG')"></div>
+      </div>
+      <div class="horizontal-half-wrapper right-side active">
+        <div class="header-background white"></div>
+        <div class="header-wrapper row valign-wrapper">
+          <div class="col s12 m8 offset-m2 valign">
+            <h1>First:</h1>
+            <span class="tagline">My name is Melissa R. Burnham, and I love to code.</span>
+            <button class="read-more"><i class="icon-caret-down"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-half-wrapper">
+        <div class="header-background white"></div>
+        <div class="header-wrapper row valign-wrapper">
+          <div class="col s12 m8 offset-m2 valign">
+            <h1>Second:</h1>
+            <span class="tagline">I am a hard worker and learn quickly.</span>
+            <button class="read-more"><i class="icon-caret-down"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-half-wrapper right-side">
+        <div class="header-background white"></div>
+        <div class="header-wrapper row valign-wrapper">
+          <div class="col s12 m8 offset-m2 valign">
+            <h1>Third:</h1>
+            <span class="tagline">I'm a team player.</span>
+            <button class="read-more"><i class="icon-caret-down"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section valign-wrapper">
+      <div class="row valign">
+        <div class="col s12 m10 offset-m1">
+          <div class="row">
+            <div class="col s12"><h2 class="section-title" id="mySkills">My Skills</h2></div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-light-bulb"></i></h4>
+              <p class="caption">HTML</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-bolt"></i></h4>
+              <p class="caption">CSS</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-rocket"></i></h4>
+              <p class="caption">Javascript</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-settings"></i></h4>
+              <p class="caption">jQuery</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-umbrella"></i></h4>
+              <p class="caption">MySQL</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-compass"></i></h4>
+              <p class="caption">Sequelize</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-key"></i></h4>
+              <p class="caption">MVC Design</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-fire"></i></h4>
+              <p class="caption">Agile Development</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-bell"></i></h4>
+              <p class="caption">NPM</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-camera"></i></h4>
+              <p class="caption">APIs</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-compass"></i></h4>
+              <p class="caption">JSON</p>
+            </div>
+            <div class="col s6 m3 l2">
+              <h4><i class="icon-plane"></i></h4>
+              <p class="caption">Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-<!-- Top menu -->
-<div class="w3-top connect">
-  <div class="topMenu w3-xlarge">
-    <div class="w3-center w3-padding-16 name">Melissa R. Burnham</div>
-  </div>
-</div>
+    <div class="section light full-height">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h1 id="myWork">My Work</h1>
+          <div class="row masonry-grid">
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://melissarburnham.github.io/Hangman-Game/" target="_blank"><img src="assets/images/flag.jpg" class="portfolio_pics" alt="hangman">	 
+                  <span class="card-title">13 Colonies Hangman Game</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                  <a href="https://melissarburnham.github.io/Gif-tastic/" target="_blank"><img src="assets/images/API.gif" class="portfolio_pics" alt="giphy">	       
+                  <span class="card-title">GIPHY API</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                <a href="https://melissarburnham.github.io/Brain-Trivia-Game/" target="_blank"><img src="assets/images/brain.jpg" class="portfolio_pics" alt="brain_trivia">	 
+                <span class="card-title">Brain Trivia</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+          			<a href="https://melissarburnham.github.io/Crystals-Collector/" target="_blank"><img src="assets/images/crystal.jpg" class="portfolio_pics" alt="crystal_game">	 
+                <span class="card-title">Crystals Collector</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+            			<a href="https://melissarburnham.github.io/Train-Scheduler/" target="_blank"><img src="assets/images/train.jpg" class="portfolio_pics" alt="train_scheduler">	 
+                  <span class="card-title">Train Scheduler</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+			          <a href="https://github.com/melissarburnham/liri-node-app/" target="_blank"><img src="assets/images/node.png" class="portfolio_pics" alt="liri">	 
+                <span class="card-title">Liri Node App</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+			          <a href="http://seebenprogram.com/Tune-Up/" target="_blank"><img src="assets/images/tires.jpg" class="portfolio_pics" alt="tune-up">	 
+                <span class="card-title">Tune-Up Maintence App</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+          			<a href="https://github.com/melissarburnham/bamazon-app" target="_blank"><img src="assets/images/mysql.png" class="portfolio_pics" alt="Bamazon">	 
+                <span class="card-title">Bamazon</span></a>
+                </div>
+              </div>
+            </div>
+              <div class="col s12 m6 l4">
+                <div class="card">
+                  <div class="card-image">
+                  <a href="https://fast-thicket-69852.herokuapp.com/" target="_blank"><img src="assets/images/burger.PNG" class="portfolio_pics" alt="sequelizedBurger">	 
+                  <span class="card-title">Eat-da-Burger Sequelized</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  
-<!-- !PAGE CONTENT! -->
-<div class="slideshow w3-center w3-content w3-section">
-  <img class="mySlides" src="assets/images/main1.PNG">
-  <img class="mySlides" src="assets/images/main2.PNG">
-  <img class="mySlides" src="assets/images/main3.PNG">
-  <img class="mySlides" src="assets/images/main4.PNG">
-  <img class="mySlides" src="assets/images/main5.PNG">
-  <img class="mySlides" src="assets/images/main6.PNG">
-  <img class="mySlides" src="assets/images/main7.PNG">
-  <img class="mySlides" src="assets/images/main8.PNG">  
-  <img class="mySlides" src="assets/images/main9.png">    
-</div>
+    <!-- Contact Us -->
+    <div class="section light valign-wrapper">
+      <div class="container" id="contactMe">
+        <form method="post" action="https://formspree.io/melissarburnham@gmail.com">    
+          <div class="row">
+            <div class="col s12"><h2 class="section-title">Contact Me</h2></div>
+            <div class="input-field col s6">
+              <input id="name" type="text" name="name" placeholder="Full Name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="email" type="email" name="email" placeholder="abc123@gmail.com">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea" name="message" placeholder="Tell me anything!"></textarea>
+              <label for="message">Message</label>
+              <input class="waves-effect waves-light btn-large" type="submit" value="Submit">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-<!-- End page content -->
-</div>
-<a href="./portfolio.html"><h3 class = "w3-center enter">ENTER</h3></a>
- <!-- Footer -->
- <footer class="w3-row-padding w3-padding-16 w3-center w3-container">
-    &copy; 2018 Melissa Burnham 
-  </footer>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m3">
+            <img class="materialize-logo" src="images/materialize-teal.png" alt="">
+            <p>Made with love by Materialize and Melissa Burnham.</p>
+          </div>
+          <div class="col s6 m3 offset-m3">
+            <h5>About</h5>
+            <ul>
+              <li><a href="#mySkills">Skills</a></li>
+              <li><a href="#myWork">My Work</a></li>
+              <li><a href="./assets/images/melissa-burnham-resume.jpg" target="_blank">Resume</a></li>
+            </ul>
+          </div>
+          <div class="col s6 m3">
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="https://github.com/melissarburnham" target="_blank">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/melissa-burnham-06289b134" target="_blank">LinkedIn</a></li>
+              <li><a href="mailto:melissarburnham@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-<script src="./index.js"></script>
-</body>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+    <!-- External libraries -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+
+    <!-- Initialization script -->
+    <script src="js/startup.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>
-
