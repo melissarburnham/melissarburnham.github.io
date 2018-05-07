@@ -10,5 +10,8 @@
 
 .nav-wrapper {
     background-color: #a03343;
+}
+
+nav.navbar a {
     color: white;
 }
