@@ -1,5 +1,5 @@
 .card-title {
-    background-color:#423f3f;
+    background-color:#777;
     width: 100%;
 }
 
@@ -18,4 +18,13 @@ nav.navbar a {
 
 .section {
     background-color: rgb(46, 46, 46);
+}
+
+.image-container {
+    border-radius: 2%;
+    border: black solid 2px;
+}
+
+.background {
+
 }
