@@ -25,6 +25,14 @@ nav.navbar a {
     border: black solid 2px;
 }
 
+.githubIcon {
+    float: right;
+    margin-right: -15px;
+    max-width: 20px;
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 753px) {
     .image-container{
         margin-bottom: 40px;
